@@ -1,4 +1,4 @@
-#include "configManager.h"
+#include "config_manager.h"
 #include <iostream>
 int main() {
     ConfigManager c;

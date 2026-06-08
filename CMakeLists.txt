@@ -10,5 +10,5 @@ if(NOT TARGET mik64_config_manager)
 
     target_link_libraries(mik64_config_manager PRIVATE mik64::logger)
 endif()
-add_executable(mik64_config_manager_test main.cpp)
-target_link_libraries(mik64_config_manager_test PRIVATE mik64::config-manager)
+add_executable(config_manager_test main.cpp)
+target_link_libraries(config_manager_test PRIVATE mik64::config-manager)
